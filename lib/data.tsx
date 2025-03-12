@@ -139,7 +139,7 @@ export const committeeMembers = {
       id: 2,
       name: "Mr. M. Mohamed Rafee",
       position: "AP/IT",
-      image: "/faculties/rafee-it.webp",
+      image: "/faculties/rafee-it.jpg",
     },
     {
       id: 3,
@@ -246,7 +246,7 @@ export const departmentContacts = [
       {
         name: "Mr. M. Mohamed Rafee",
         role: "Assistant Professor",
-        phone: "+91 97901 47886",
+        phone: "+91 90432 93530",
         email: "mdrafee@gmail.com"
       },
     ]
