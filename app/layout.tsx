@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   description: pageMeta.description,
   keywords: pageMeta.keywords,
-  authors: [{ name: "ICTACA Organizing Committee" }],
+  authors: [{ name: "ICTACA- CAHCET Dhanush Kandhan & Abubakkar Siddiq" }],
   creator: "ICTACA 2025",
   publisher: "C Abdul Hakeem College of Engineering and Technology",
   formatDetection: {

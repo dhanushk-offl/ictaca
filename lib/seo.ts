@@ -9,7 +9,7 @@ export const pageMeta = {
   themeColor: "#1e3a8a",
   twitterHandle: "@ICTACA",
   locale: "en_US",
-  ogImage: "/og-image.jpg", // Should be replaced with actual path
+  ogImage: "/og-image.jpg",
   // Structured data
   organizationSchema: {
     "@context": "https://schema.org",
