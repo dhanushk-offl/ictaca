@@ -370,6 +370,13 @@ export const galleryImages = [
   },
   {
     id: 3,
+    title: "Presenting the Conference Momento",
+    caption: "Presenting the Conference Momento to the honorable Cheif guest of ICTACA 2024",
+    src: "/gallery/img_4.jpeg",
+    alt: "Audience at the conference hall - icata24"
+  },
+  {
+    id: 4,
     title: "ICTACA 2019",
     caption: "Exchange of Event Momentos of ICTATA 2019",
     src: "/gallery/img_3.jpg",
