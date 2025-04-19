@@ -14,7 +14,7 @@ export default function Countdown() {
 
   useEffect(() => {
     // Set the conference date - April 25, 2025
-    const conferenceDate = new Date("May 30, 2025 09:00:00").getTime()
+    const conferenceDate = new Date("May 16, 2025 09:00:00").getTime()
 
     const timer = setInterval(() => {
       const now = new Date().getTime()

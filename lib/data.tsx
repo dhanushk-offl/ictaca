@@ -3,8 +3,8 @@ import { CalendarDays, Users, BookOpen, Presentation } from "lucide-react"
 export const conferenceData = {
   name: "5th International Conference on Technology and Advancement in Computing Applications",
   shortName: "ICTACA-2025",
-  date: "May 30-31, 2025",
-  venue: "C Abdul Hakeem College of Engineering and Technology",
+  date: "May 16-17, 2025",
+  venue: "C. Abdul Hakeem College of Engineering and Technology",
   location: "Melvisharam, Ranipet",
   description:
     "Join us for the 5th International Conference on Technology and Advancement in Computing Applications (ICTACA-2025), a premier forum for researchers, practitioners, and educators to present and discuss the most recent innovations, trends, and concerns in the field of computing and technology.",
@@ -19,6 +19,7 @@ export const conferenceData = {
 }
 
 export const announcements = [
+  "Conference Dates are preponed to May 16-17, 2025",
   "Registrations for ICTACA-2025 are now open!",
   "Submit your research papers for presentation at the conference",
   "Join us for the 5th International Conference on Technology and Advancement in Computing Applications",
@@ -28,10 +29,10 @@ export const announcements = [
 export const importantDates = [
   // { id: 1, event: "Abstract submission", date: "March 20, 2025" },
   // { id: 2, event: "Full Paper Submission", date: "March 27, 2025" },
-  { id: 5, event: "Last Date of Registration", date: "April 21, 2025" },
+  { id: 5, event: "Last Date of Registration", date: "April 31, 2025" },
   { id: 3, event: "Notification of Acceptance", date: "May 5, 2025" },
-  { id: 4, event: "Camera Ready Paper Submission", date: "May 15, 2025" },
-  { id: 6, event: "Conference Dates", date: "May 30-31, 2025" },
+  { id: 4, event: "Camera Ready Paper Submission", date: "May 10, 2025" },
+  { id: 6, event: "Conference Dates", date: "May 16-17, 2025" },
 ]
 
 export const aboutInstitution = {
