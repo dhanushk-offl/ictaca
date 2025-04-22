@@ -23,13 +23,13 @@ export const announcements = [
   "Registrations for ICTACA-2025 are now open!",
   "Submit your research papers for presentation at the conference",
   "Join us for the 5th International Conference on Technology and Advancement in Computing Applications",
-  "Last date for paper submission is April 21, 2025",
+  "Last date for paper submission is April 30, 2025",
 ]
 
 export const importantDates = [
   // { id: 1, event: "Abstract submission", date: "March 20, 2025" },
   // { id: 2, event: "Full Paper Submission", date: "March 27, 2025" },
-  { id: 5, event: "Last Date of Registration", date: "April 31, 2025" },
+  { id: 5, event: "Last Date of Registration", date: "April 30, 2025" },
   { id: 3, event: "Notification of Acceptance", date: "May 5, 2025" },
   { id: 4, event: "Camera Ready Paper Submission", date: "May 10, 2025" },
   { id: 6, event: "Conference Dates", date: "May 16-17, 2025" },
