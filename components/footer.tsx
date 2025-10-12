@@ -110,7 +110,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-white/20 text-center">
-          <p className="text-sm text-white/60">&copy; {new Date().getFullYear()} ICTACA-2025. All rights reserved.<br /> Designed & Developed by 3<sup>rd</sup> Year Students, Dept. of IT, CAHCET</p>
+          <p className="text-sm text-white/60">&copy; {new Date().getFullYear()} ICTACA-2025. All rights reserved.<br /> Designed & Developed by IT'26, Dept. of IT, CAHCET</p>
         </div>
       </div>
     </footer>
