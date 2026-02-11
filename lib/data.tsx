@@ -1,38 +1,37 @@
 import { CalendarDays, Users, BookOpen, Presentation } from "lucide-react"
 
 export const conferenceData = {
-  name: "5th International Conference on Technology and Advancement in Computing Applications",
-  shortName: "ICTACA-2025",
-  date: "May 16-17, 2025",
+  name: "6th International Conference on Technology and Advancement in Computing Applications",
+  shortName: "ICTACA-2026",
+  date: "April 16, 2026",
   venue: "C. Abdul Hakeem College of Engineering and Technology",
   location: "Melvisharam, Ranipet",
   description:
-    "Join us for the 5th International Conference on Technology and Advancement in Computing Applications (ICTACA-2025), a premier forum for researchers, practitioners, and educators to present and discuss the most recent innovations, trends, and concerns in the field of computing and technology.",
+    "Join us for the 6th International Conference on Technology and Advancement in Computing Applications (ICTACA-2026), a premier forum for researchers, practitioners, and educators to present and discuss the most recent innovations, trends, and concerns in the field of computing and technology.",
   email: "ictaca@cahcet.edu.in",
-  phone: "+91 97901 47886",
+  phone: "+91 9043293530",
   website: "https://ictaca.cahcet.in",
-  registrationLink: "https://forms.gle/M9shESg3mj4TUC7GA",
+  registrationLink: "https://forms.gle/zgD7xErGmE5zsEjS6",
   heroBackground: "/cover-img.jpg",
   // guidelinesPdf: "/placeholder-guidelines.pdf",
-  locationLink: "https://maps.app.goo.gl/ahRqG7pftu2oLDc49" ,
+  locationLink: "https://maps.app.goo.gl/ahRqG7pftu2oLDc49",
   collegeLogo: "/college-logo-ictata.png"
 }
 
 export const announcements = [
-  "Conference Dates are preponed to May 16-17, 2025",
-  "Registrations for ICTACA-2025 are now open!",
+  "Registrations for ICTACA-2026 are now open!",
   "Submit your research papers for presentation at the conference",
-  "Join us for the 5th International Conference on Technology and Advancement in Computing Applications",
-  "Last date for paper submission is April 30, 2025",
+  "Join us for the 6th International Conference on Technology and Advancement in Computing Applications",
+  "Last date for paper submission is March 20, 2026",
 ]
 
 export const importantDates = [
   // { id: 1, event: "Abstract submission", date: "March 20, 2025" },
   // { id: 2, event: "Full Paper Submission", date: "March 27, 2025" },
-  { id: 5, event: "Last Date of Registration", date: "April 30, 2025" },
-  { id: 3, event: "Notification of Acceptance", date: "May 5, 2025" },
-  { id: 4, event: "Camera Ready Paper Submission", date: "May 10, 2025" },
-  { id: 6, event: "Conference Dates", date: "May 16-17, 2025" },
+  { id: 5, event: "Last Date of Registration", date: "March 20, 2026" },
+  { id: 3, event: "Notification of Acceptance", date: "March 25, 2026" },
+  { id: 4, event: "Camera Ready Paper Submission", date: "March 30, 2026" },
+  { id: 6, event: "Conference Date", date: "April 16, 2026" },
 ]
 
 export const aboutInstitution = {
@@ -44,18 +43,21 @@ export const aboutInstitution = {
 }
 
 export const callForPapers = [
-  { id: 1, domain: "Artificial Intelligence and Machine Learning" },
-  { id: 2, domain: "Big Data Analytics and Data Science" },
-  { id: 3, domain: "Cloud Computing and Distributed Systems" },
-  { id: 4, domain: "Cyber Security and Privacy" },
-  { id: 5, domain: "Internet of Things (IoT) and Smart Systems" },
-  { id: 6, domain: "Computer Vision and Image Processing" },
-  { id: 7, domain: "Natural Language Processing" },
-  { id: 8, domain: "Blockchain Technology and Applications" },
-  { id: 9, domain: "Mobile Computing and Wireless Networks" },
-  { id: 10, domain: "Software Engineering and DevOps" },
-  { id: 11, domain: "Human-Computer Interaction" },
-  { id: 12, domain: "Quantum Computing" },
+  { id: 1, domain: "Cyber Security" },
+  { id: 2, domain: "Cryptograpy and Cyber Security" },
+  { id: 3, domain: "Network Security" },
+  { id: 4, domain: "Machine Learning" },
+  { id: 5, domain: "Data Science" },
+  { id: 6, domain: "Computer Science and Business System" },
+  { id: 7, domain: "Algorithm and Bionformatics" },
+  { id: 8, domain: "Database and Data Mining" },
+  { id: 9, domain: "Dependable, Reliable and Autonomic Computing" },
+  { id: 10, domain: "Distributed and Paralled System and Algorithm" },
+  { id: 11, domain: "DSP/ Image Processing / Pattern Recognition / Multimedia" },
+  { id: 12, domain: "Embedded Systems and IoT" },
+  { id: 13, domain: "Game and Software Engineering" },
+  { id: 14, domain: "Geographical Information System / Global Navigation Satellite System (GIS/GNSS))" },
+  { id: 15, domain: "Grid and Scalable Computing" },
 ]
 
 export const registrationFees = [
@@ -98,15 +100,15 @@ export const committeeMembers = {
   convener: [
     {
       id: 1,
-      name: "Dr. K. Abrar Ahmed",
-      position: "HOD/CSE",
-      image: "/faculties/hod_cse.jpg",
-    },
-    {
-      id: 2,
       name: "Dr. S. Umamaheswari",
       position: "HOD/IT",
       image: "/faculties/hod-it.webp",
+    },
+    {
+      id: 2,
+      name: "Dr. K. Abrar Ahmed",
+      position: "HOD/CSE",
+      image: "/faculties/hod_cse.jpg",
     },
     {
       id: 3,
@@ -124,23 +126,29 @@ export const committeeMembers = {
   coConvener: [
     {
       id: 1,
-      name: "Dr. R. Z. Inamul Hussain",
-      position: "Assoc.Prof./CSE",
-      image: "/faculties/inamul-cse.webp",
+      name: "Mr. M. Mohamed Rafee",
+      position: "AP/IT",
+      image: "/faculties/rafee-it.jpg",
     },
+    {
+      id: 2,
+      name: "Ms. R. Banu",
+      position: "AP/IT",
+      image: "/faculties/Banu-It.jpeg",
+    }
   ],
   coordinator: [
     {
       id: 1,
-      name: "Mr. B. Palanisamy",
-      position: "AP/CSE",
-      image: "/faculties/palanisamy-cse.webp",
+      name: "Dr. R. Z. Inamul Hussain",
+      position: "Assoc.prof./CSE",
+      image: "/faculties/inamul-cse.webp",
     },
     {
       id: 2,
-      name: "Mr. M. Mohamed Rafee",
+      name: "Mrs. G. Suganya",
       position: "AP/IT",
-      image: "/faculties/rafee-it.jpg",
+      image: "/faculties/sugnya-It.jpeg",
     },
     {
       id: 3,
@@ -179,15 +187,15 @@ export const committeeMembers = {
   organizingChairs: [
     {
       id: 1,
-      name: "Dr. K. Abrar Ahmed",
-      position: "HOD/CSE",
-      image: "/faculties/hod_cse.jpg",
-    },
-    {
-      id: 2,
       name: "Dr. S. Umamaheswari",
       position: "HOD/IT",
       image: "/faculties/hod-it.webp",
+    },
+    {
+      id: 2,
+      name: "Dr. K. Abrar Ahmed",
+      position: "HOD/CSE",
+      image: "/faculties/hod_cse.jpg",
     },
     {
       id: 3,
@@ -204,44 +212,38 @@ export const committeeMembers = {
   ],
   technicalProgramCoordinators: [
     // { id: 1, name: "Dr. Muzaffer Hussain", position: "Professor/AI&DS" },
-    { id: 2, name: "Mr. K. Md. Abdul Kader", position: "Assoc. Professor" },
-    { id: 3, name: "Mrs. M. Dhanalakshmi", position: "AP/IT" },
-    { id: 4, name: "Mrs. R. Banu", position: "AP/IT" },
-    { id: 5, name: "Mrs. S. Saranya", position: "AP/IT" },
-    { id: 7, name: "Mrs. P. Saranyadevi", position: "AP/IT" },
-    { id: 8, name: "Mrs. P. Sandhiya", position: "AP/IT" },
-    { id: 10, name: "Mr. M. Abdul Naseer", position: "AP/CSE" },
-    { id: 11, name: "Mr. K.A. Suhail Ahmed", position: "AP/CSE" },
-    { id: 12, name: "Mr. M. Askar Basha", position: "AP/CSE" },
-    { id: 13, name: "Mrs. P. Revathi", position: "AP/CSE" },
-    { id: 14, name: "Mr. B. Palanisamy", position: "AP/CSE" },
-    { id: 15, name: "Mrs. S. Saranya", position: "AP/CSE" },
-    { id: 16, name: "Ms. A. Kalaiselvi", position: "AP/CSE" },
-    { id: 17, name: "Mrs. G. Sundari", position: "AP/CSE" },
-    { id: 18, name: "Mrs. V. Indulakshmi", position: "AP/CSE" },
-    { id: 19, name: "Mrs. R. Vanmathi", position: "AP/CSE" },
-    { id: 21, name: "Mrs. Samundi", position: "AP/CSE" },
-    { id: 22, name: "Mrs. Samundi", position: "AP/CSE" },
-    { id: 23, name: "Mr. T.Ezhilarasan", position: "AP/AI&DS" },
-    { id: 24, name: "Mrs Saranya Ramanadoss", position: "AP/AI&DS" },
-    { id: 25, name: "Mrs. V.I. SumaiyaBanu", position: "AP/MCA" },
-    { id: 26, name: "Mrs. R. Kavitha", position: "AP/MCA" },
+    { id: 1, name: "Dr. N. Gayathri Devi", position: "Assoc. Professor/IT" },
+    { id: 2, name: "Mrs. M. Dhanalakshmi", position: "AP/IT" },
+    { id: 3, name: "Mrs. S. Saranya", position: "AP/IT" },
+    { id: 4, name: "Mrs. P. Saranyadevi", position: "AP/IT" },
+    { id: 5, name: "Mrs. P. Sandhiya", position: "AP/IT" },
+    { id: 6, name: "Mr. D. Kalaiyarasan", position: "AP/IT" },
+    { id: 7, name: "Mr. I. Abdulla", position: "AP/IT" },
+    { id: 8, name: "Mr. M. Abdul Naseer", position: "AP/CSE" },
+    { id: 9, name: "Mr. K.A. Suhail Ahmed", position: "AP/CSE" },
+    { id: 10, name: "Mrs. P. Revathi", position: "AP/CSE" },
+    { id: 11, name: "Mr. B. Palanisamy", position: "AP/CSE" },
+    { id: 12, name: "Mrs. S. Saranya", position: "AP/CSE" },
+    { id: 13, name: "Ms. A. Kalaiselvi", position: "AP/CSE" },
+    { id: 14, name: "Mrs. G. Sundari", position: "AP/CSE" },
+    { id: 15, name: "Mrs. V. Indulakshmi", position: "AP/CSE" },
+    { id: 16, name: "Mrs. R. Vanmathi", position: "AP/CSE" },
+    { id: 17, name: "Ms. S. Prabhavathy", position: "AP/CSE" },
+    { id: 18, name: "Mrs. S. Nathiya", position: "AP/CSE" },
+    { id: 19, name: "Mr. B. S. Vijay Baskar", position: "AP/MCA" },
+    { id: 20, name: "Mr. R. Ameen Shariff", position: "AP/MCA" },
+    { id: 21, name: "Mr. A. Dhanasekaran", position: "AP/MCA" },
+    { id: 22, name: "Mrs. M. Mageshwari", position: "AP/MCA" },
+    { id: 23, name: "Mrs. M. Ranjani", position: "AP/MCA" },
+    { id: 24, name: "Mr. T. Ezhilarasan", position: "AP/AI&DS" },
+    { id: 25, name: "Mrs. R. Saranya", position: "AP/AI&DS" },
+    { id: 26, name: "Mr. G. S. Senthil Kumar", position: "AP/AI&DS" },
+    { id: 27, name: "Mrs. K. Indhumathi", position: "AP/AI&DS" },
+    { id: 28, name: "Mr. G. Dhnayajan", position: "AP/AI&DS" },
   ],
 }
 
 export const departmentContacts = [
-  {
-    id: "cse",
-    name: "Computer Science & Engineering",
-    contacts: [
-      {
-        name: "Dr R.Z.INAMUL HUSSAIN",
-        role: "Assistant Professor",
-        phone: "+91 97901 47886 ",
-        email: " inamulhasan.rz@cahcet.edu.in"
-      },
-    ]
-  },
   {
     id: "it",
     name: "Information Technology",
@@ -251,6 +253,18 @@ export const departmentContacts = [
         role: "Assistant Professor",
         phone: "+91 90432 93530",
         email: "mdrafee@gmail.com"
+      },
+    ]
+  },
+  {
+    id: "cse",
+    name: "Computer Science & Engineering",
+    contacts: [
+      {
+        name: "Dr. R. Z. Inamul Hussain",
+        role: "Associate Professor",
+        phone: "+91 97901 47886",
+        email: "inamulhasan.rz@cahcet.edu.in"
       },
     ]
   },
@@ -382,30 +396,37 @@ export const galleryImages = [
     src: "/gallery/img_3.jpg",
     alt: "Exchange of Event Momentos of ICTATA 2019"
   },
+  {
+    id: 5,
+    title: "ICTACA 2025",
+    caption: "Certificate providing of ICTATA 2025",
+    src: "/gallery/img-4.jpg",
+    alt: "Certificate providing of ICTATA 2025"
+  }
 ]
 
 export const stats = [
   {
     id: 1,
-    value: "300+",
+    value: "TBA",
     label: "Attendees",
     icon: Users,
   },
   {
     id: 2,
-    value: "2",
+    value: "1",
     label: "Days",
     icon: CalendarDays,
   },
   {
     id: 3,
-    value: "5+",
+    value: "TBA",
     label: "Talks",
     icon: Presentation,
   },
   {
     id: 4,
-    value: "10+",
+    value: "TBA",
     label: "Projects",
     icon: BookOpen,
   },

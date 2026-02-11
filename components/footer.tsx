@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { contactInfo, quickLinks, SocialLinks } from "@/lib/data"
+import { contactInfo, quickLinks, SocialLinks, conferenceData } from "@/lib/data"
 import { GraduationCap, Mail, Phone, MapPin, Twitter, Linkedin, Facebook, Instagram } from "lucide-react"
 
 export default function Footer() {
@@ -33,10 +33,10 @@ export default function Footer() {
           >
             <div className="flex items-center space-x-2 mb-6">
               <GraduationCap className="h-8 w-8" />
-              <span className="font-bold text-2xl">ICTACA-2025</span>
+              <span className="font-bold text-2xl">{conferenceData.shortName}</span>
             </div>
             <p className="text-white/90 max-w-xs">
-              5th International Conference on Technology and Advancement in Computing Applications
+              {conferenceData.name}
             </p>
             <div className="mt-6 space-y-4">
               <div className="flex items-start">
@@ -110,7 +110,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-white/20 text-center">
-          <p className="text-sm text-white/60">&copy; {new Date().getFullYear()} ICTACA-2025. All rights reserved.<br /> Designed & Developed by IT'26, Dept. of IT, CAHCET</p>
+          <p className="text-sm text-white/60">&copy; {new Date().getFullYear()} {conferenceData.shortName}. All rights reserved.<br /> Designed & Developed by IT'26, Dept. of IT, CAHCET</p>
         </div>
       </div>
     </footer>
