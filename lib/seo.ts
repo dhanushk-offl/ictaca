@@ -1,9 +1,9 @@
 export const pageMeta = {
-  siteName: "ICTACA-2025",
+  siteName: "ICTACA-2026",
   siteUrl: "https://ictaca.cahcet.in",
-  title: "5th International Conference on Technology and Advancement in Computing Applications",
+  title: "6th International Conference on Technology and Advancement in Computing Applications",
   description:
-    "Join the 5th International Conference on Technology and Advancement in Computing Applications (ICTACA-2025) at C Abdul Hakeem College of Engineering and Technology, happening April 25-26, 2025.",
+    "Join the 6th International Conference on Technology and Advancement in Computing Applications (ICTACA-2026) at C Abdul Hakeem College of Engineering and Technology, happening May 16-17, 2026.",
   keywords:
     "ICTACA, Computing Applications, Conference 2025, Technology, Academic Conference, Research Conference, C Abdul Hakeem College, Melvisharam, CAHCET, cahcet, ictaca, ICTACA-2025",
   themeColor: "#1e3a8a",
@@ -22,7 +22,7 @@ export const pageMeta = {
   eventSchema: {
     "@context": "https://schema.org",
     "@type": "Event",
-    name: "5th International Conference on Technology and Advancement in Computing Applications",
+    name: "6th International Conference on Technology and Advancement in Computing Applications",
     startDate: "2025-05-30",
     endDate: "2025-05-31",
     eventStatus: "https://schema.org/EventScheduled",
@@ -40,7 +40,7 @@ export const pageMeta = {
       },
     },
     description:
-      "Join the 5th International Conference on Technology and Advancement in Computing Applications (ICTACA-2025)",
+      "Join the 6th International Conference on Technology and Advancement in Computing Applications (ICTACA-2026)",
     organizer: {
       "@type": "Organization",
       name: "C Abdul Hakeem College of Engineering and Technology",
